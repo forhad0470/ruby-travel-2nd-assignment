@@ -1,34 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruby Travel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/069e64eb37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <section class="nav-bar">
-            <div class="logo">
-                <img class="logo-img" src="./Images/Group 40071 (2).png" alt="">
-                <h2 class="logo-text">Ruby <span>Travel</span></h2>
+      <!-- nav-bar section start -->
+      <nav class="nav-bar">
+        <div class="logo">
+          <img class="logo-img" src="./Images/Group 40071 (2).png" alt="" />
+          <h2 class="logo-text">
+            Ruby <span class="logo-text-secondery">Travel</span>
+          </h2>
+        </div>
+        <div class="menu-bar">
+          <ul>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav-bar section end -->
+      <!-- header banner section start -->
+
+      <div class="banner">
+        <div class="banner-container">
+          <h2 class="banner-title">Explore Your Travel</h2>
+          <p class="banner-description">
+            Our great offer is going on right now. If you remember any happy
+            memories, thinking about your partner, then come to us right now.
+          </p>
+          <form action="">
+            <input type="text" placeholder="Where go" />
+            <select name="" id="">
+              <option value="place">When</option>
+            </select>
+            <select name="" id="">
+              <option value="type">Select Type</option>
+            </select>
+            <button class="common-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              Find Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- header banner section end -->
+    </header>
+    <main>
+        <!-- popular tours section start -->
+
+        <section class="popular-tours">
+            <div class="popular-tours-content">
+                <h2 class="popular-tours-title">Our Popular Tours</h2>
+                <p class="popular-tours-description">Any international trip might sound hard to find if your budget is around Tk 40,000, as you are left wondering what destinations you can travel on a limited budget. </p>
+                <p class="popular-tours-description">If you're a fan of scenic hill stations, then Darjeeling and Kalimpong should be on your bucket list. Starting from Tk 22,999 per person, this five-day tour package includes hotel accommodation in a three-star hotel, daily buffet breakfast, lunch and dinner at restaurants, and an English-speaking guide service. You'll get to explore Darjeeling's hill resort and visit popular tourist spots like the Ghoom Monastery, Batasia Loop, Japanese Temple, and more. This tour is the perfect way to unwind and escape the hustle and bustle of the city.</p>
+                <p class="popular-tours-description">Experience the vibrant city of Bangkok with a two-night, three-day package tour. Starting from Tk 29,999 per person, you'll get return air tickets with all travel taxes, hotel accommodation at a three-star hotel on a twin-sharing basis, daily buffet breakfast, and airport-hotel-airport transfer, sightseeing as per itinerary, and meals as per the schedule. The chance of exploring the city's famous floating market, visiting Wat Arun and Gems gallery, and more makes this tour perfect for those who want a quick and hassle-free trip to Bangkok.</p>
+                <p class="popular-tours-description">If you're a nature lover, then this three-night, four-day tour package is perfect for you. Costing from Tk 27,000 per person, you'll get to explore the serene and beautiful Gangtok (Sikkim) with comfortable accommodation in a three-star hotel, daily buffet breakfast and dinner, and an English-speaking guide. Visit the famous Rumtek Monastery, Tashi View point, Ganesh Tok, and Himalayan Zoological Park and definitely don't miss the chance to take a whole day excursion to the picturesque Tsomgo Lake if the weather permits.</p>
+                <button class="common-btn">Read More</button>
             </div>
-            <div class="manu-bar">
-                <ul>
-                    <li class="home"><a href="#">Home</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+
+            <img class="popular-tours-img" src="./Images/Rectangle 4.png" alt="">
+        </section>
+
+        <!-- popular tours section end -->
+
+        <!-- destination section start -->
+
+        <section class="destination">
+            <div class="content">
+                <h2 class="destination-title">Choose Your Destination</h2>
+                <p class="destination-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            <div class="grid-container">
+                <div class="maldives">
+                    <h2 class="maldives-title">Maldives</h2>
+                </div>
+                
+                <img src="./Images/Rectangle 8 (1).png" alt="">
+                <img src="./Images/Rectangle 6.png" alt="">
+                <img src="./Images/Rectangle 7.png" alt="">
+                <img src="./Images/Rectangle 9.png" alt="">
+                <img src="./Images/Rectangle 11.png" alt="">
+                <img src="./Images/Rectangle 10.png" alt="">
             </div>
         </section>
-    </header>
-    <Main>
 
-    </Main>
-    <Footer>
-
-    </Footer>
-</body>
+        <!-- destination section end -->
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h2 class="footer-title">Ruby <span class="logo-2nd-color">Travel</span></h2>
+            </div>
+            <p class="footer-content-description">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        </div>
+        <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
+        <hr>
+        <p class="reserved">2017,All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>

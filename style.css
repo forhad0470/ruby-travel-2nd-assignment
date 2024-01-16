@@ -6,3 +6,222 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
+.common-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.25rem;
+    background-color: #FF5400;
+}
+
+
+/* header banner section start */
+
+.banner {
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+    display: block;
+    border-radius: 16px;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    text-align: center;
+    
+}
+.banner-container {
+    position: relative;
+    top: 105px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    width: 670px;
+    margin: 24px auto;
+    color: #FFF;
+    font-weight: 400;
+}
+form{
+    background-color: #FFF ;
+    display: inline-flex;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+}
+form input,select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+form input::placeholder ,select{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+form button{
+    color: #FFF;
+    font-weight: 700;
+    background-color: #FF5400;
+}
+
+
+
+/* header banner section end */
+
+/* popular tours section start */
+
+.popular-tours{
+    display: flex;
+    margin: 50px 134px;
+    gap: 53px;
+}
+.popular-tours-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-tours-description{
+    margin-bottom: 24px;
+}
+
+/* popular tours section end */
+
+/* destination section start */
+
+    .content{
+        text-align: center;
+        margin: 50px auto;
+    }
+    .destination-title{
+        color: #131318;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .destination-description{
+        width: 640px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 24px auto;
+    }
+    .grid-container .maldives{
+        width: 573px;
+        height: 300px;
+        border-radius: 16px;
+        background: linear-gradient( rgba(19, 19, 24, 0.20) , rgba(19, 19, 24, 0.20) 100%),url(./Images/Rectangle\ 5.png);
+
+    }
+    
+/* footer section start */
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 100px auto 15px;
+    }
+    .footer-title{
+        color:  #131318;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .footer-content-description{
+        width: 770px;
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 auto;
+    }
+    .logo-2nd-color{
+        color: #FF5400;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .social-icon{
+        width: 174.322px;
+        height: 24px;
+        margin: 32px auto 0;
+        
+
+    }
+    .social-icon i{
+        margin-right: 24px;
+    }
+    hr{
+        width: 830px;
+        text-align: center;
+        margin: 50px auto 0;
+    }
+    .reserved{
+        color: #131318;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin: 50px auto 100px;
+    }
+
+/* footer section start */
+
+
+
+/* destination section end */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .banner{
+        width: 100%;
+        margin: 20px 20px;
+    }
+    form{
+        display: block;
+        width: 280px;
+        margin: 0 auto;
+        position: relative;
+        padding: 16px;
+        
+    }
+    form input,select,button{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .banner-container {
+        position: relative;
+        top: 20px;
+        margin: 20px;
+    }
+    .banner-title{
+        font-size: 2rem;
+
+    }
+    .banner-description{
+        width:300px;
+    }
+    .popular-tours{
+        display: block;
+        width: 100%;
+        margin: 20px 24px;
+    }
+    .popular-tours img {
+        margin-top: 24px;
+    }
+}
